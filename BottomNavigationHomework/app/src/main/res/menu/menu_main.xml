@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/statisticsFragment"
+        android:icon="@drawable/baseline_query_stats_24"
+        android:title="@string/statistics" />
+
+    <item
+        android:id="@+id/theoryFragment"
+        android:icon="@drawable/baseline_menu_book_24"
+        android:title="@string/theory" />
+
+    <item
+        android:id="@+id/mainFragment"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/main" />
+
+    <item
+        android:id="@+id/testsFragment"
+        android:icon="@drawable/baseline_content_paste_search_24"
+        android:title="@string/tests" />
+
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="@string/settings" />
+
+</menu>
