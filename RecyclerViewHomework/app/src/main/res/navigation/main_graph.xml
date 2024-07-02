@@ -42,5 +42,14 @@
         android:id="@+id/theoryFragment"
         android:name="com.example.bottomnavigation.TheoryFragment"
         android:label="fragment_theory"
-        tools:layout="@layout/fragment_theory" />
+        tools:layout="@layout/fragment_theory" >
+        <action
+            android:id="@+id/action_theoryFragment_to_detailedFragment"
+            app:destination="@id/detailedFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detailedFragment"
+        android:name="com.example.bottomnavigation.DetailedFragment"
+        android:label="fragment_detailed"
+        tools:layout="@layout/fragment_detailed" />
 </navigation>
