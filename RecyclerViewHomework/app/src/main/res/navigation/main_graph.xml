@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/greetingFragment"
-        android:name="com.example.bottomnavigation.GreetingFragment"
+        android:name="com.example.bottomnavigation.fragments.GreetingFragment"
         android:label="fragment_greeting"
         tools:layout="@layout/fragment_greeting" />
     <fragment
         android:id="@+id/mainFragment"
-        android:name="com.example.bottomnavigation.MainFragment"
+        android:name="com.example.bottomnavigation.fragments.MainFragment"
         android:label="fragment_main"
         tools:layout="@layout/fragment_main" >
         <action
@@ -25,22 +25,22 @@
     </fragment>
     <fragment
         android:id="@+id/settingsFragment"
-        android:name="com.example.bottomnavigation.SettingsFragment"
+        android:name="com.example.bottomnavigation.fragments.SettingsFragment"
         android:label="fragment_settings"
         tools:layout="@layout/fragment_settings" />
     <fragment
         android:id="@+id/statisticsFragment"
-        android:name="com.example.bottomnavigation.StatisticsFragment"
+        android:name="com.example.bottomnavigation.fragments.StatisticsFragment"
         android:label="fragment_statistics"
         tools:layout="@layout/fragment_statistics" />
     <fragment
         android:id="@+id/testsFragment"
-        android:name="com.example.bottomnavigation.TestsFragment"
+        android:name="com.example.bottomnavigation.fragments.TestsFragment"
         android:label="fragment_tests"
         tools:layout="@layout/fragment_tests" />
     <fragment
         android:id="@+id/theoryFragment"
-        android:name="com.example.bottomnavigation.TheoryFragment"
+        android:name="com.example.bottomnavigation.fragments.theory.TheoryFragment"
         android:label="fragment_theory"
         tools:layout="@layout/fragment_theory" >
         <action
@@ -49,7 +49,7 @@
     </fragment>
     <fragment
         android:id="@+id/detailedFragment"
-        android:name="com.example.bottomnavigation.DetailedFragment"
+        android:name="com.example.bottomnavigation.fragments.DetailedFragment"
         android:label="fragment_detailed"
         tools:layout="@layout/fragment_detailed" />
 </navigation>
